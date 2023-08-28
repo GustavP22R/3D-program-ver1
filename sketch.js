@@ -37,7 +37,7 @@ function draw()
 
   
   noStroke();
-  fill(50,230,100);
+  fill(50,235,100); 
 
   //højre plane
   push();
@@ -125,7 +125,7 @@ function draw()
     box(40);
     pop();
    
-    if(zPos > 500)
+    if(zPos > 360)
     {
       xPos = random(camX -50, camX + 50);
       yPos = random(camY -50, camY + 50);
